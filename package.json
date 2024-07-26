@@ -1,0 +1,27 @@
+{
+  "name": "api-simple",
+  "version": "1.0.0",
+  "description": "Simple API to show more how to build a backend with NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js",
+    "test": "ava"
+  },
+  "keywords": [
+    "Express",
+    "JS"
+  ],
+  "author": "Lasindu-Semasingha",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/preset-env": "^7.25.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.9",
+    "@babel/node": "^7.25.0",
+    "ava": "^6.1.3",
+    "nodemon": "^3.1.4"
+  }
+}
